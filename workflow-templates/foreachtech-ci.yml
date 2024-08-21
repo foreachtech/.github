@@ -1,10 +1,10 @@
-name: Lint
+name: Lint4
 
 on: [push]
 
 jobs:
-  lint:
-    name: Lint
+  lint4:
+    name: Lint4
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.21
